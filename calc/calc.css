@@ -6,10 +6,10 @@ h1 {
     text-align: center;
     font-family: sans-serif;
     text-decoration: dashed;
+    margin-top: 15px;
     color: white;
-    margin-top: 115px;
     position: relative;
-    font-size: 70px;
+    font-size: 50px;
 }
 
 .container {
@@ -48,3 +48,154 @@ h1 {
     margin-right: 10px;
 }
 
+#buttonv {
+    position: absolute;
+    height: 63px;
+    width: 63px;
+    margin: 25px;
+    border-radius: 50%;    
+    bottom: 0%;
+}
+
+#button0 {
+    position: absolute;
+    height: 63px;
+    width: 63px;
+    margin: 25px;
+    left: 25%;
+    bottom: 0%;
+}
+
+#button1 {
+    position: absolute;
+    height: 63px;
+    width: 63px;
+    margin: 25px;
+    bottom: 15%;
+}
+
+#button2 {
+    position: absolute;
+    height: 63px;
+    width: 63px;
+    margin: 25px;
+    bottom: 15%;
+    left: 25%;
+}
+
+#button3 {
+    position: absolute;
+    height: 63px;
+    width: 63px;
+    margin: 25px;
+    bottom: 15%;
+    left: 50%;
+}
+
+#button4 {
+    position: absolute;
+    height: 63px;
+    width: 63px;
+    margin: 25px;
+    bottom: 30%;
+}
+
+#button5 {
+    position: absolute;
+    height: 63px;
+    width: 63px;
+    margin: 25px;
+    bottom: 30%;
+    left: 25%;
+}
+
+#button6 {
+    position: absolute;
+    height: 63px;
+    width: 63px;
+    margin: 25px;
+    bottom: 30%;
+    left: 50%;
+}
+
+#button7 {
+    position: absolute;
+    height: 63px;
+    width: 63px;
+    margin: 25px;
+    bottom: 45%;
+}
+
+#button8 {
+    position: absolute;
+    height: 63px;
+    width: 63px;
+    margin: 25px;
+    bottom: 45%;
+    left: 25%;
+}
+
+#button9 {
+    position: absolute;
+    height: 63px;
+    width: 63px;
+    margin: 25px;
+    bottom: 45%;
+    left: 50%;
+}
+
+#buttondiv {
+    position: absolute;
+    height: 63px;
+    width: 55px;
+    margin: 25px;
+    bottom: 15%;
+    left: 72%;    
+}
+
+#buttonresult {
+    position: absolute;
+    height: 63px;
+    width: 126px;
+    margin: 25px;
+    left: 50%;
+    bottom: 0%;
+}
+
+#butres {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    height: 63px;
+    width: 126px;
+    border-radius: 25%;
+    color: black;
+    background-color: rgb(241, 126, 85);
+    font-size: 25px;
+    box-shadow: 3px 3px 3px #7c7676  
+}
+
+.buttonop {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    height: 63px;
+    width: 55px;
+    border-radius: 50%;
+    background-color: gray;
+    color: white;
+    font-size: 25px;
+    box-shadow: 3px 3px 3px #7c7676    
+}
+
+.button {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    height: 63px;
+    width: 63px;
+    border-radius: 50%;
+    color: black;
+    font-size: 25px;
+    box-shadow: 3px 3px 3px #7c7676
+}
