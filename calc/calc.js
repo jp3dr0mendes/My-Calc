@@ -2,17 +2,19 @@
 
 function insert (a){
     let aux = document.getElementById("resultado")
-    aux.value = a
+    aux.value += a
     console.log(a)
     console.log(aux)
 }
 
+
+
 //criando função para alertar o valor do campo visor
 
-function mostraValor (){
+function mostraValor (res){
     let aux = document.querySelector('input[name="res"]')
 
-    aux.value = 'taux'
+    aux.value = res
 
     console.log(aux.value)
 }

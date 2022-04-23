@@ -41,26 +41,31 @@ h1 {
 }
 
 .result {
+    align-items: center;
     font-family: 'Press Start 2P', cursive;
     right: 0%;
-    top: -20%;
+    top: 50%;
     bottom: 100%;
     position: absolute;
-    font-size: 60px;
+    padding: 55px;
+    font-size: 2px;
     margin-top: 12.5px;
     margin-bottom: 5px;
     margin-left: 5px;
     margin-right: 10px;
+    -webkit-appearance:none
 }
 
 #resultado {
     font-family: 'Press Start 2P', cursive;
     color:black;
     position: absolute;
-    font-size: 60px;
-    width: 280px;
+    font-size: 30px;
+    width: 250px;
     top: 20%;
     left: 2%;
+    -webkit-appearance:none;
+    padding:15px;
     background-color: rgb(70, 134, 70);
 }
 
