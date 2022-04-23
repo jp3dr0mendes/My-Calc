@@ -6,12 +6,13 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script href="calc.js"></script>
     </head>
     <body>
         <h1>My Calc</h1>
         <div class="container">
             <div class="visor">
-                <p class="result"></p>
+                <input id="resultado" type="number">
             </div>
             <div id = "button1">
                 <button class = "button">1</button>
@@ -56,13 +57,10 @@
                 <button class = "buttonop">/</button>
             </div>
             <div id = "buttonresult">
-                <button id = "butresop">=</button>
+                <button id = "butres">=</button>
             </div>
             <div id = "buttonv">
-                <button class = "buttonop">.</button>
-            </div>
-            <div id = "buttonclear">
-                <button class = "buttonop">C</button>
+                <button class = "button">.</button>
             </div>
         </div>
     </body>
