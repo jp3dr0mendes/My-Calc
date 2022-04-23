@@ -402,27 +402,3 @@ h1 {
     box-shadow: 3px 3px 3px #7c7676  
 }
 
-.buttonop {
-    position: absolute;
-    left: 0%;
-    top: 0%;
-    height: 63px;
-    width: 55px;
-    border-radius: 50%;
-    background-color: gray;
-    color: white;
-    font-size: 25px;
-    box-shadow: 3px 3px 3px #7c7676    
-}
-
-.button {
-    position: absolute;
-    left: 0%;
-    top: 0%;
-    height: 63px;
-    width: 63px;
-    border-radius: 50%;
-    color: black;
-    font-size: 25px;
-    box-shadow: 3px 3px 3px #7c7676
-}
