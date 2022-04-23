@@ -6,10 +6,21 @@ function insert (){
     console.log(aux)
 }
 
+
 insert()
+
+let aux = document.querySelector('input[name="res"]')
+
+console.log(aux.value)
 
 //criando função para alertar o valor do campo visor
 
 function mostraValor (){
-    alert(document.getElementById("resultado").value)
+    let aux = document.querySelector('input[name="res"]')
+
+    aux.value = 2
+
+    console.log(aux.value)
 }
+
+mostraValor()
