@@ -10,7 +10,6 @@
     </head>
     <body>
         <h1>My Calc</h1>
-        <script src="calc.js"></script>
         <div class="container">
             <div class="visor">
                 <input id="resultado" type="number">
@@ -58,11 +57,12 @@
                 <button class = "buttonop">/</button>
             </div>
             <div id = "buttonresult">
-                <button id = "butres">=</button>
+                <button id = "butres" onclick = "mostraValor()">=</button>
             </div>
             <div id = "buttonv">
                 <button class = "button">.</button>
             </div>
         </div>
+        <script src="calc.js"></script>    
     </body>
 </html>
