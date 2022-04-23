@@ -1,5 +1,6 @@
 body {
     background-color: rgb(255, 208, 0);
+    display: flexbox;
 }
 
 h1 {
@@ -42,7 +43,7 @@ h1 {
 .result {
     font-family: 'Press Start 2P', cursive;
     right: 0%;
-    top: -25%;
+    top: -20%;
     bottom: 100%;
     position: absolute;
     font-size: 60px;
@@ -58,7 +59,7 @@ h1 {
     position: absolute;
     font-size: 60px;
     width: 280px;
-    top: 15%;
+    top: 20%;
     left: 2%;
     background-color: rgb(70, 134, 70);
 }
@@ -72,6 +73,18 @@ h1 {
     bottom: 0%;
 }
 
+#bvir{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    height: 63px;
+    width: 63px;
+    border-radius: 50%;
+    color: black;
+    font-size: 25px;
+    box-shadow: 3px 3px 3px #7c7676    
+}
+
 #button0 {
     position: absolute;
     height: 63px;
@@ -81,12 +94,36 @@ h1 {
     bottom: 0%;
 }
 
+#b0 {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    height: 63px;
+    width: 63px;
+    border-radius: 50%;
+    color: black;
+    font-size: 25px;
+    box-shadow: 3px 3px 3px #7c7676
+}
+
 #button1 {
     position: absolute;
     height: 63px;
     width: 63px;
     margin: 25px;
     bottom: 15%;
+}
+
+#b1 {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    height: 63px;
+    width: 63px;
+    border-radius: 50%;
+    color: black;
+    font-size: 25px;
+    box-shadow: 3px 3px 3px #7c7676
 }
 
 #button2 {
@@ -98,6 +135,18 @@ h1 {
     left: 25%;
 }
 
+#b2 {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    height: 63px;
+    width: 63px;
+    border-radius: 50%;
+    color: black;
+    font-size: 25px;
+    box-shadow: 3px 3px 3px #7c7676
+}
+
 #button3 {
     position: absolute;
     height: 63px;
@@ -107,12 +156,36 @@ h1 {
     left: 50%;
 }
 
+#b3 {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    height: 63px;
+    width: 63px;
+    border-radius: 50%;
+    color: black;
+    font-size: 25px;
+    box-shadow: 3px 3px 3px #7c7676
+}
+
 #button4 {
     position: absolute;
     height: 63px;
     width: 63px;
     margin: 25px;
     bottom: 30%;
+}
+
+#b4 {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    height: 63px;
+    width: 63px;
+    border-radius: 50%;
+    color: black;
+    font-size: 25px;
+    box-shadow: 3px 3px 3px #7c7676
 }
 
 #button5 {
@@ -124,6 +197,18 @@ h1 {
     left: 25%;
 }
 
+#b5 {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    height: 63px;
+    width: 63px;
+    border-radius: 50%;
+    color: black;
+    font-size: 25px;
+    box-shadow: 3px 3px 3px #7c7676
+}
+
 #button6 {
     position: absolute;
     height: 63px;
@@ -133,12 +218,36 @@ h1 {
     left: 50%;
 }
 
+#b6 {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    height: 63px;
+    width: 63px;
+    border-radius: 50%;
+    color: black;
+    font-size: 25px;
+    box-shadow: 3px 3px 3px #7c7676
+}
+
 #button7 {
     position: absolute;
     height: 63px;
     width: 63px;
     margin: 25px;
     bottom: 45%;
+}
+
+#b7 {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    height: 63px;
+    width: 63px;
+    border-radius: 50%;
+    color: black;
+    font-size: 25px;
+    box-shadow: 3px 3px 3px #7c7676
 }
 
 #button8 {
@@ -150,6 +259,18 @@ h1 {
     left: 25%;
 }
 
+#b8 {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    height: 63px;
+    width: 63px;
+    border-radius: 50%;
+    color: black;
+    font-size: 25px;
+    box-shadow: 3px 3px 3px #7c7676
+}
+
 #button9 {
     position: absolute;
     height: 63px;
@@ -157,6 +278,18 @@ h1 {
     margin: 25px;
     bottom: 45%;
     left: 50%;
+}
+
+#b9 {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    height: 63px;
+    width: 63px;
+    border-radius: 50%;
+    color: black;
+    font-size: 25px;
+    box-shadow: 3px 3px 3px #7c7676
 }
 
 #buttondiv {
@@ -168,6 +301,19 @@ h1 {
     left: 72%;    
 }
 
+#bdiv {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    height: 63px;
+    width: 55px;
+    border-radius: 50%;
+    background-color: gray;
+    color: white;
+    font-size: 25px;
+    box-shadow: 3px 3px 3px #7c7676   
+}
+
 #buttonx {
     position: absolute;
     height: 63px;
@@ -175,6 +321,19 @@ h1 {
     margin: 25px;
     bottom: 15%;
     left: 72%;    
+}
+
+#bx {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    height: 63px;
+    width: 55px;
+    border-radius: 50%;
+    background-color: gray;
+    color: white;
+    font-size: 25px;
+    box-shadow: 3px 3px 3px #7c7676   
 }
 
 #buttonmin {
@@ -186,6 +345,19 @@ h1 {
     left: 72%;    
 }
 
+#bmin {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    height: 63px;
+    width: 55px;
+    border-radius: 50%;
+    background-color: gray;
+    color: white;
+    font-size: 25px;
+    box-shadow: 3px 3px 3px #7c7676   
+}
+
 #buttonplus {
     position: absolute;
     height: 63px;
@@ -193,6 +365,19 @@ h1 {
     margin: 25px;
     bottom: 45%;
     left: 72%;    
+}
+
+#bplus {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    height: 63px;
+    width: 55px;
+    border-radius: 50%;
+    background-color: gray;
+    color: white;
+    font-size: 25px;
+    box-shadow: 3px 3px 3px #7c7676   
 }
 
 #buttonresult {

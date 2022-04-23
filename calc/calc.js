@@ -1,26 +1,19 @@
-function insert (){
-    let w = document.getElementById("button1")
-    let aux = document.getElementById("resultado")
+//criando a função para inserir o valor dos botões no visor
 
-    console.log(w)
+function insert (a){
+    let aux = document.getElementById("resultado")
+    aux.value = a
+    console.log(a)
     console.log(aux)
 }
-
-
-insert()
-
-let aux = document.querySelector('input[name="res"]')
-
-console.log(aux.value)
 
 //criando função para alertar o valor do campo visor
 
 function mostraValor (){
     let aux = document.querySelector('input[name="res"]')
 
-    aux.value = 2
+    aux.value = 'taux'
 
     console.log(aux.value)
 }
 
-mostraValor()
