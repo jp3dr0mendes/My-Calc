@@ -1,3 +1,8 @@
+var aux = 0
+var valores = []
+var func = ""
+var res = 0
+
 //criando a função para inserir o valor dos botões no visor
 
 function insert (a){
@@ -7,22 +12,41 @@ function insert (a){
     //console.log(aux)
 }
 
-var visorContent = document.getElementById("resultado")
+// criando uma função de pegar valores do input
 
-var res = function operations (visorContent){
+function pegaValor(){
+    let cont = document.getElementById("resultado").value
+    console.log(cont)
+    valores.push(cont)
+}
 
+//criando função de identificar a operação a ser executada
+
+function operations(b){
+    func = b
+    console.log(func)
+    aux++
+    console.log(aux)
+    pegaValor()
+    let a = document.querySelector('input[name="res"]')
+    a.value =""
+    if(valores.lenght != 0){
+
+    }
 }
 
 //criando função para alertar o valor do campo visor
 
 function mostraValor (res){
-    let aux = document.querySelector('input[name="res"]')
+    let a = document.querySelector('input[name="res"]')
 
     if (res){
-        aux.value = res  
+        a.value = res  
     } else {
-        aux.value =""
+        a.value =""
     }    
-    console.log(aux.value)
+    console.log(a.value)
+
+    aux = 0
 }
 
