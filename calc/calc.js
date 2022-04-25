@@ -30,10 +30,34 @@ function operations(b){
     pegaValor()
     let a = document.querySelector('input[name="res"]')
     a.value =""
-    if(valores.lenght != 0){
-
+    if(valores.lenght = 2){
+        switch (b){
+            case '+':
+                valores.push(valores[0] + valores[1])
+            case '-':
+                valores.push(valores[0] - valores[1])
+            case '*':
+                valores.push(valores[0] * valores[1])
+            case '/':
+                valores.push(valores[0] / valores[1])
+        }
+    } else {
+        switch (b){
+            case '+':
+                valores.push(valores[valores.length - 1] + valores[valores.length - 2])
+            case '-':
+                valores.push(valores[valores.length - 1] - valores[valores.length - 2])
+            case '*':
+                valores.push(valores[valores.length - 1] * valores[valores.length - 2])
+            case '/':
+                valores.push(valores[valores.length - 1] / valores[valores.length - 2])
+        }
     }
 }
+
+//criando uma variável para receber o resultado das operações
+
+res = valores [ valores.length - 1]
 
 //criando função para alertar o valor do campo visor
 
