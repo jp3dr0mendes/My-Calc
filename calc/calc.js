@@ -26,23 +26,6 @@ function pegaValor(){
 
 function operations(b){
     func = b
-
-    /*switch (b) {
-        case "+":
-            func = 1;
-            break;
-        case "-":
-            func = 2;
-            break;
-        case "*":
-            func = 3;
-        case "/":
-            func = 4;
-            break;
-        default:
-
-        console.log(func)
-    }*/
     
     console.log(func)
     
@@ -79,6 +62,12 @@ function mostraValor () {
     console.log("-----------")
     console.log(func)
     pegaValor()
+    
+    //Passando os valores do arryar de strings para inteiros
+    
+    for (let i = 0; i < valores.length; i++){
+        valores[i] = parseFloat(valores[i])
+    }
 
     var res = 0
 
@@ -107,24 +96,6 @@ function mostraValor () {
 
         console.log(func)
     }
-
-        /*if (func = 1){
-            res = soma(valores[valores.length - 2], valores[valores.length - 1])
-            console.log("valor de res")
-            console.log(res)
-        } else if (func = 2) {
-            res = sub(valores[valores.length - 2], valores[valores.length - 1])
-            console.log("valor de res")
-            console.log(res)
-        } else if (func = 3){
-            res = mult(valores[valores.length - 2], valores[valores.length - 1])
-            console.log("valor de res")
-            console.log(res)
-        } else if (func = 4) {
-            res = div(valores[valores.length - 2], valores[valores.length - 1])
-            console.log("valor de res")
-            console.log(res)
-        } */
 
     console.log(res)
 
