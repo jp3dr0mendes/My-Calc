@@ -20,15 +20,14 @@ function pegaValor(){
     valores.push(cont)
     console.log("valor do ultimo elemento do array")
     console.log(valores[valores.length -  1])
-    //console.log(valores[valores.length-  2])
 }
 
 //criando função de identificar a operação a ser executada
 
 function operations(b){
-    //func = b
+    func = b
 
-    switch (b) {
+    /*switch (b) {
         case "+":
             func = 1;
             break;
@@ -43,7 +42,7 @@ function operations(b){
         default:
 
         console.log(func)
-    }
+    }*/
     
     console.log(func)
     
@@ -54,7 +53,8 @@ function operations(b){
     let a = document.querySelector('input[name="res"]')
     a.value = ""
 }
-//criando funções auxiliares
+
+//criando funções para as quatro operações da calculadora
 
 function soma (a,b){
     return a+b
@@ -80,7 +80,35 @@ function mostraValor () {
     console.log(func)
     pegaValor()
 
-        if (func = 1){
+    var res = 0
+
+    switch (func) {
+        case "+":
+        res = soma(valores[valores.length - 2], valores[valores.length - 1])
+        console.log("valor de res")
+        console.log(res)
+            break;
+        case "-":
+        res = sub(valores[valores.length - 2], valores[valores.length - 1])
+        console.log("valor de res")
+        console.log(res)
+            break;
+        case "*":
+        res = mult(valores[valores.length - 2], valores[valores.length - 1])
+        console.log("valor de res")
+        console.log(res)
+            break;
+        case "/":
+        res = div(valores[valores.length - 2], valores[valores.length - 1])
+        console.log("valor de res")
+        console.log(res)
+            break;
+        default:
+
+        console.log(func)
+    }
+
+        /*if (func = 1){
             res = soma(valores[valores.length - 2], valores[valores.length - 1])
             console.log("valor de res")
             console.log(res)
@@ -93,10 +121,10 @@ function mostraValor () {
             console.log("valor de res")
             console.log(res)
         } else if (func = 4) {
-            var res = div(valores[valores.length - 2], valores[valores.length - 1])
+            res = div(valores[valores.length - 2], valores[valores.length - 1])
             console.log("valor de res")
             console.log(res)
-        } 
+        } */
 
     console.log(res)
 
