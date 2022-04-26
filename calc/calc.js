@@ -1,7 +1,6 @@
 var aux = 0
 var valores = []
 var func = 0
-var res = 0
 
 //criando a função para inserir o valor dos botões no visor
 
@@ -16,8 +15,10 @@ function insert (a){
 
 function pegaValor(){
     let cont = document.getElementById("resultado").value
+    console.log("valor do input")
     console.log(cont)
     valores.push(cont)
+    console.log("valor do ultimo elemento do array")
     console.log(valores[valores.length -  1])
     //console.log(valores[valores.length-  2])
 }
@@ -25,7 +26,24 @@ function pegaValor(){
 //criando função de identificar a operação a ser executada
 
 function operations(b){
-    func = b
+    //func = b
+
+    switch (b) {
+        case "+":
+            func = 1;
+            break;
+        case "-":
+            func = 2;
+            break;
+        case "*":
+            func = 3;
+        case "/":
+            func = 4;
+            break;
+        default:
+
+        console.log(func)
+    }
     
     console.log(func)
     
@@ -54,57 +72,36 @@ function div (a,b){
     return a/b
 }
 
+
 //criando função para alertar o valor do campo visor
 
 function mostraValor () {
-
+    console.log("-----------")
+    console.log(func)
     pegaValor()
 
-    console.log("valores no array")
+        if (func = 1){
+            res = soma(valores[valores.length - 2], valores[valores.length - 1])
+            console.log("valor de res")
+            console.log(res)
+        } else if (func = 2) {
+            res = sub(valores[valores.length - 2], valores[valores.length - 1])
+            console.log("valor de res")
+            console.log(res)
+        } else if (func = 3){
+            res = mult(valores[valores.length - 2], valores[valores.length - 1])
+            console.log("valor de res")
+            console.log(res)
+        } else if (func = 4) {
+            var res = div(valores[valores.length - 2], valores[valores.length - 1])
+            console.log("valor de res")
+            console.log(res)
+        } 
 
-    console.log("-----")
-
-    console.log(valores.length)
-
-    console.log("------")
-
-    for (let i = 0; i < valores.length; i++){
-        console.log(valores[i])
-    }
-
-    console.log("-------")
-
-    if (valores.length = 1){
-        
-    } else if(valores.lenght = 2){
-        switch (b){
-            case '+':
-                valores.push(valores[0] + valores[1])
-            case '-':
-                valores.push(valores[0] - valores[1])
-            case '*':
-                valores.push(valores[0] * valores[1])
-            case '/':
-                valores.push(valores[0] / valores[1])
-        }
-    } else {
-        switch (b){
-            case '+':
-                valores.push(valores[valores.length - 1] + valores[valores.length - 2])
-            case '-':
-                valores.push(valores[valores.length - 1] - valores[valores.length - 2])
-            case '*':
-                valores.push(valores[valores.length - 1] * valores[valores.length - 2])
-            case '/':
-                valores.push(valores[valores.length - 1] / valores[valores.length - 2])
-        }
-    }
-
-    res = valores[valores.length - 1]
-    console.log(valores.length - 1)
+    console.log(res)
 
     let a = document.querySelector('input[name="res"]')
-
+ 
     if (res){
         a.value = res  
     } else {
